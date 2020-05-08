@@ -1,4 +1,3 @@
-using System;
 
 namespace PII_Herencia
 {
@@ -10,6 +9,7 @@ namespace PII_Herencia
             this.LastName  = lastname;
             this.Ci = ci;
             this.Calificacion = 0;
+            this.ImageName = ImageName;
         }
 
 
@@ -18,6 +18,6 @@ namespace PII_Herencia
         public string LastName { get; set; }
         public string Ci { get; set; }
         public int CapacidadMaxima { get; set; }
-
+        public string ImageName { get; set; }
     }
 }

@@ -6,7 +6,7 @@ namespace PII_Herencia
     {
         public ConductorPool(string name, string lastname, string ci) : base(name, lastname, ci)
         { 
-            //this.CapacidadMaxima = 0;
+            
         }
 
     }

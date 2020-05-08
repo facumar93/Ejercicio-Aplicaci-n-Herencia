@@ -15,14 +15,11 @@ namespace PII_Herencia
 
             conductorP1.CapacidadMaxima = 3;
 
-            ListaConductores conductores = new ListaConductores();
-            //conductores.addUsuario(conductorC1);
+            conductorP1.ImageName = "foto.png";
 
-            ListaPasajeros pasajeros = new ListaPasajeros();
-            //pasajeros.addUsuario(pasajero1);
-
-
-
+            ListaUsuario usuarios = new ListaUsuario();
+            
+            usuarios.addUsuario(conductorP1);
 
             /*
             En éste método deberas mostrar un ejemplo de funcionamiento de tu programa an pseudocódigo. A continuación te 
