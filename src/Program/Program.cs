@@ -7,6 +7,20 @@ namespace PII_Herencia
     {
         static void Main(string[] args)
         {
+            Usuario pasajero1 = new Pasajero("carlos","gomez","1.111.111-1");
+            Usuario pasajero2 = new Pasajero("vero", "perez", "2.222.222-2");
+            Usuario pasajero3 = new Pasajero("fabi", "duran", "3.333.333-3");
+            Usuario conductorC1 = new ConductorComun("pedro", "perez", "4.444.444-4");
+            Usuario conductorP1 = new ConductorPool("mario", "perez", "5.555.555-5");
+
+            conductorP1.CapacidadMaxima = 3;
+
+            conductorP1.ImageName = "foto.png";
+
+            ListaUsuario usuarios = new ListaUsuario();
+            
+            usuarios.addUsuario(conductorP1);
+
             /*
             En éste método deberas mostrar un ejemplo de funcionamiento de tu programa an pseudocódigo. A continuación te 
             planteamos un ejemplo de como hacerlo. Esto no significa que te limites a hacer solamente esto, debes pensar 
